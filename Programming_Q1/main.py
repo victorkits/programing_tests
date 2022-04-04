@@ -1,4 +1,4 @@
-from Prueba_tech.Entity.fifo import ArrayFIFO
+from Programming_Q1.Entity.fifo import ArrayFIFO
 
 
 def main():
