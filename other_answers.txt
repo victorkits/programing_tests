@@ -1,0 +1,28 @@
+Q3. 
+    SELECT t.name as "Teacher"
+	    , c.courseCode as "CourseCode"
+	    , c.dayOfWeek as "Day"
+	    , c.timeStart as "Start"
+	    , c.timeEnd as "End"
+      FROM Teachers AS t 
+INNER JOIN Classes AS c 
+        ON t.teacherID = c.teacherID 
+     WHERE t.name = "Jonatan"
+     ;
+
+Q4. 
+    -----
+
+
+Fundamental questions:
+
+Q1: a)
+Q2: d)
+Q3: d)
+Q4: a) (and PATCH) but the question is: which are implemented. And the a) is more complete...
+Q5: c)
+Q6: c)
+Q7: a)
+Q8: c)
+Q9: b)
+Q10: d)
